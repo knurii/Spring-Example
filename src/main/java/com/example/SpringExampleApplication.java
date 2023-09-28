@@ -11,7 +11,7 @@ import org.springframework.core.io.support.PathMatchingResourcePatternResolver;
 
 import javax.sql.DataSource;
 
-@MapperScan(basePackages = "com.example.*") //Mapper 찾을 때 마다 여기서 찾겠다는 뜻
+@MapperScan(basePackages = "com.example.*") //Mapper 찾을 때 마다 여기서 찾겠다는 뜻, @Repository 위치를 찹아줌
 @SpringBootApplication
 public class SpringExampleApplication {
 
